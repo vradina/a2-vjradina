@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>CS4241 Assignment 2</title>
+    <meta charset="utf-8">
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- get rid of favicon error -->
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+<<<<<<< HEAD
+<!-- Replace <form> with the following line for server-side rendering -->
+    <h1> Insert New Stat</h1>
+
+<form>
+    <div class="container">
+        <div class="column">
+            <label for="statistic" >Select Type of statistic</label>
+            <select id="statistic">
+                <option value="goal">Goal Scored</option>
+                <option value="penalty">Penalty</option>
+            </select>
+            <label for="yourname">Players Name: </label><input type="text" id="yourname">
+        </div>
+
+        <div class="column">
+            <label for="team">Team: </label>
+            <select id="team">
+            <option value="Home">Home</option>
+            <option value="Away">Away</option>       
+            </select>
+            <label for="number">Players Number: </label><input type="text" id="number">
+        </div>
+
+        <div class="column">
+            <label for="time"> Time on Clock: </label><input type="text" id="time">
+            <label for="period">Period: </label><input type="text" id="period">
+        </div>
+    </div>
+
+=======
+<!-- Note the form action attribute. This will be the end point. -->
+<form action="/test">
+    <label for="yourname">Your Name: </label><input type="text" id="yourname" value="your name here">
+>>>>>>> b86ece9de794d8af1f292e8ed243862282fa39ff
+    <button>submit</button>
+</form>
+
+
+
+<h2>Game Stat Sheet</h2>
+
+<hr />
+<div>
+    <table border="1">
+        <tr align="center">
+            <th width="90">Statistic</th>
+            <th width="90">Team</th>
+            <th width="90">Player Name</th>
+            <th width="90">Player Number</th>
+            <th width="90">Time</th>
+            <th width="90">Period</th>
+        </tr>
+    
+    </table>
+
+    <template id="display">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </template>
+
+
+</div>
+</body>
+</html>

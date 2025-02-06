@@ -1,0 +1,19 @@
+{
+  "name": "app.js",
+  "version": "0.1.0",
+
+  "description": "WPI CS4241-C25 Assignment A2",
+  "author": "",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mime": "^2.6.0"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "main": "server.js",
+  "license": "ISC"
+}
